@@ -11,3 +11,93 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.block {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  margin-left: 400px;
+  margin-top: 80px;
+
+}
+
+.top {
+  display: flex;
+  justify-content: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateY(-100%);
+}
+
+.topButton {
+  width: 505px;
+  height: 45px;
+  background-color: cyan;
+  color: black;
+  outline: none;
+  &:hover{
+    background-color: aquamarine;
+  }
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: -44px;
+  left: 50%;
+  transform: translateY(-30%);
+  transform: translateX(-50%);
+}
+
+.bottomButton {
+  width: 505px;
+  height: 45px;
+  background-color: cyan;
+  color: black;
+  outline: none;
+  &:hover{
+    background-color: aquamarine;
+  }
+}
+
+
+.left {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: -45px;
+  transform: translateY(-50%);
+}
+
+.leftButton {
+  width: 45px;
+  height: 505px;
+  background-color: cyan;
+  color: black;
+  outline: none;
+  &:hover{
+    background-color: aquamarine;
+  }
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  right: -45px;
+  transform: translateY(-50%);
+}
+
+.rightButton {
+  width: 45px;
+  height: 505px;
+  background-color: cyan;
+  color: black;
+  outline: none;
+  &:hover{
+    background-color: aquamarine;
+  }
+}
